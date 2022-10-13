@@ -40,16 +40,33 @@ body {
 
 #tribute-info {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: auto;
   box-shadow: 10px 10px 23px -4px rgba(0, 0, 0, 0.72);
   padding: 0.5rem;
   margin-bottom: 2rem;
   border-radius: 2rem;
 }
+#tribute-info .card-year {
+  border: 2px solid red;
+  max-width: 15rem;
+  height: 15rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
 #tribute-title {
   font-size: 2rem;
   border-radius: 10px;
   box-shadow: -11px 14px 18px -11px rgba(50, 205, 50, 0.65);
+}
+
+#wiki-link {
+  color: rgba(50, 205, 50, 0.65);
+  text-decoration: none;
+}
+
+#wiki-link:hover {
+  color: #080808;
 }
